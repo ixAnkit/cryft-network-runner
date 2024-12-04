@@ -10,11 +10,11 @@ import (
 
 	"github.com/ixAnkit/cryft-network-runner/network/node"
 	"github.com/ixAnkit/cryft-network-runner/utils"
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/ixAnkit/cryftgo/genesis"
+	"github.com/ixAnkit/cryftgo/ids"
+	"github.com/ixAnkit/cryftgo/utils/constants"
+	"github.com/ixAnkit/cryftgo/utils/formatting/address"
+	"github.com/ixAnkit/cryftgo/utils/units"
 	"golang.org/x/exp/maps"
 )
 

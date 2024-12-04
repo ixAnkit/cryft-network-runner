@@ -9,7 +9,7 @@ import (
 	"github.com/cryft-labs/coreth/core/types"
 	"github.com/cryft-labs/coreth/ethclient"
 	"github.com/cryft-labs/coreth/interfaces"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/ixAnkit/cryftgo/ids"
 	"github.com/ethereum/go-ethereum/common"
 )
 

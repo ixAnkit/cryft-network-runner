@@ -14,7 +14,7 @@ import (
 
 	"github.com/ixAnkit/cryft-network-runner/local"
 	"github.com/ixAnkit/cryft-network-runner/rpcpb"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

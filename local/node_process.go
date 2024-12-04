@@ -11,7 +11,7 @@ import (
 	"github.com/ixAnkit/cryft-network-runner/network/node"
 	"github.com/ixAnkit/cryft-network-runner/network/node/status"
 	"github.com/ixAnkit/cryft-network-runner/utils"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 	"github.com/shirou/gopsutil/process"
 	"go.uber.org/zap"
 )

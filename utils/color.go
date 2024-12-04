@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 )
 
 var supportedColors = []logging.Color{

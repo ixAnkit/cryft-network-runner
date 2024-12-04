@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/ixAnkit/cryft-network-runner/network/node"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/ixAnkit/cryftgo/ids"
 )
 
 var (

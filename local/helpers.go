@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/ixAnkit/cryft-network-runner/network/node"
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/config"
+	"github.com/ixAnkit/cryftgo/utils/constants"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 	"go.uber.org/zap"
 )
 

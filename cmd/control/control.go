@@ -20,7 +20,7 @@ import (
 	"github.com/ixAnkit/cryft-network-runner/utils"
 	"github.com/ixAnkit/cryft-network-runner/utils/constants"
 	"github.com/ixAnkit/cryft-network-runner/ux"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 )

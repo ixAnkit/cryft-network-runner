@@ -19,10 +19,10 @@ import (
 	"github.com/ixAnkit/cryft-network-runner/rpcpb"
 	"github.com/ixAnkit/cryft-network-runner/utils/constants"
 	"github.com/ixAnkit/cryft-network-runner/ux"
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/ids"
-	avago_constants "github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/config"
+	"github.com/ixAnkit/cryftgo/ids"
+	avago_constants "github.com/ixAnkit/cryftgo/utils/constants"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 	"golang.org/x/exp/maps"
 )
 

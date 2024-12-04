@@ -11,7 +11,7 @@ import (
 
 	"github.com/ixAnkit/cryft-network-runner/local"
 	"github.com/ixAnkit/cryft-network-runner/network"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 	"go.uber.org/zap"
 )
 
@@ -59,7 +59,7 @@ func main() {
 	if goPath == "" {
 		goPath = build.Default.GOPATH
 	}
-	binaryPath := fmt.Sprintf("%s%s", goPath, "/src/github.com/cryft-labs/cryftgo/build/metalgo")
+	binaryPath := fmt.Sprintf("%s%s", goPath, "/src/github.com/ixAnkit/cryftgo/build/metalgo")
 	if err := run(log, binaryPath); err != nil {
 		log.Fatal("fatal error", zap.Error(err))
 		os.Exit(1)

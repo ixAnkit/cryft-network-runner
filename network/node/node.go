@@ -8,10 +8,10 @@ import (
 
 	"github.com/ixAnkit/cryft-network-runner/api"
 	"github.com/ixAnkit/cryft-network-runner/network/node/status"
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/network/peer"
-	"github.com/cryft-labs/cryftgo/snow/networking/router"
+	"github.com/ixAnkit/cryftgo/config"
+	"github.com/ixAnkit/cryftgo/ids"
+	"github.com/ixAnkit/cryftgo/network/peer"
+	"github.com/ixAnkit/cryftgo/snow/networking/router"
 )
 
 // Node represents an Metal node

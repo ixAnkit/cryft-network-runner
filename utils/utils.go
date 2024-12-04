@@ -10,9 +10,9 @@ import (
 
 	rpcb "github.com/ixAnkit/cryft-network-runner/rpcpb"
 	"github.com/ixAnkit/cryft-network-runner/ux"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/staking"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/ids"
+	"github.com/ixAnkit/cryftgo/staking"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 )
 
 const (

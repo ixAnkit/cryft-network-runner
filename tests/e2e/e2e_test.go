@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/api/admin"
-	"github.com/cryft-labs/cryftgo/message"
-	avago_constants "github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/vms/platformvm"
+	"github.com/ixAnkit/cryftgo/api/admin"
+	"github.com/ixAnkit/cryftgo/message"
+	avago_constants "github.com/ixAnkit/cryftgo/utils/constants"
+	"github.com/ixAnkit/cryftgo/vms/platformvm"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/exp/maps"
 
@@ -27,8 +27,8 @@ import (
 	"github.com/ixAnkit/cryft-network-runner/utils"
 	"github.com/ixAnkit/cryft-network-runner/utils/constants"
 	"github.com/ixAnkit/cryft-network-runner/ux"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/ixAnkit/cryftgo/ids"
+	"github.com/ixAnkit/cryftgo/utils/logging"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 )

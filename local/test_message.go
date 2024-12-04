@@ -1,6 +1,6 @@
 package local
 
-import "github.com/cryft-labs/cryftgo/message"
+import "github.com/ixAnkit/cryftgo/message"
 
 var _ message.OutboundMessage = &TestMsg{}
 
