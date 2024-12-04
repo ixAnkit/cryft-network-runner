@@ -109,13 +109,13 @@ if [ ! -f /tmp/subnet-evm-v${SUBNET_EVM_VERSION}/subnet-evm ]
 then
     ############################
     # download subnet-evm 
-    # https://github.com/MetalBlockchain/subnet-evm/releases
+    # https://github.com/ixAnkit/subnet-evm/releases
     GOARCH=$(go env GOARCH)
     GOOS=$(go env GOOS)
-    DOWNLOAD_URL=https://github.com/MetalBlockchain/subnet-evm/releases/download/v${SUBNET_EVM_VERSION}/subnet-evm_${SUBNET_EVM_VERSION}_linux_${GOARCH}.tar.gz
+    DOWNLOAD_URL=https://github.com/ixAnkit/subnet-evm/releases/download/v${SUBNET_EVM_VERSION}/subnet-evm_${SUBNET_EVM_VERSION}_linux_${GOARCH}.tar.gz
     DOWNLOAD_PATH=/tmp/subnet-evm.tar.gz
     if [[ ${GOOS} == "darwin" ]]; then
-      DOWNLOAD_URL=https://github.com/MetalBlockchain/subnet-evm/releases/download/v${SUBNET_EVM_VERSION}/subnet-evm_${SUBNET_EVM_VERSION}_darwin_${GOARCH}.tar.gz
+      DOWNLOAD_URL=https://github.com/ixAnkit/subnet-evm/releases/download/v${SUBNET_EVM_VERSION}/subnet-evm_${SUBNET_EVM_VERSION}_darwin_${GOARCH}.tar.gz
     fi
 
     rm -rf /tmp/subnet-evm-v${SUBNET_EVM_VERSION}
